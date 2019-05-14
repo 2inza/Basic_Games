@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e62d49f6-05bc-461c-a783-33a3c9d13096" name="Default Changelist" comment="" />
+    <list default="true" id="e62d49f6-05bc-461c-a783-33a3c9d13096" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/Chess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/Chess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/bbishop.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/bbishop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/bking.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/bking.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/bknight.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/bknight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/board.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/board.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/bpawn.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/bpawn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/bqueen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/bqueen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/brook.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/brook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/wbishop.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wbishop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/wking.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wking.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/wknight.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wknight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/wpawn.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wpawn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/wqueen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wqueen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chess/sources/wrook.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wrook.png" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +30,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chess/Chess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="361">
+              <caret line="213" column="58" lean-forward="true" selection-start-line="213" selection-start-column="58" selection-end-line="213" selection-end-column="58" />
               <folding>
-                <element signature="e#157#170#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -31,11 +48,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Chess/keys.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Chess/test.py" />
         <option value="$PROJECT_DIR$/Chess/Chess.py" />
       </list>
     </option>
@@ -45,6 +66,9 @@
     <option name="y" value="40" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -77,6 +101,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -134,6 +159,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chess/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,6 +204,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Chess" />
+        <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.keys" />
       </list>
@@ -185,8 +232,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917964" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997923" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32952183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -200,32 +247,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chess/keys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chess/bqueen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chess/bpawn.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="214" selection-start-line="214" selection-end-line="214" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Chess/keys.py" />
+    <entry file="file://$PROJECT_DIR$/Chess/bqueen.png" />
+    <entry file="file://$PROJECT_DIR$/Chess/bpawn.png" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/Chess/test.py" />
     <entry file="file://$PROJECT_DIR$/Chess/Chess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="361">
+          <caret line="213" column="58" lean-forward="true" selection-start-line="213" selection-start-column="58" selection-end-line="213" selection-end-column="58" />
           <folding>
-            <element signature="e#157#170#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
