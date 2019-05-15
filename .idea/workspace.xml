@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e62d49f6-05bc-461c-a783-33a3c9d13096" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stars/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stars/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stars/main_withoutBGM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/Chess.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/Chess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/bbishop.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/bbishop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/bking.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/bking.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/bknight.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/bknight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/board.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/board.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/bpawn.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/bpawn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/bqueen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/bqueen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/brook.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/brook.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/wbishop.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wbishop.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/wking.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wking.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/wknight.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wknight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/wpawn.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wpawn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/wqueen.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wqueen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chess/sources/wrook.png" beforeDir="false" afterPath="$PROJECT_DIR$/Chess/sources/wrook.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,14 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chess/Chess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="213" column="58" lean-forward="true" selection-start-line="213" selection-start-column="58" selection-end-line="213" selection-end-column="58" />
+            <state relative-caret-position="950">
+              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stars/main_withoutBGM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -58,6 +55,9 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Chess/test.py" />
         <option value="$PROJECT_DIR$/Chess/Chess.py" />
+        <option value="$PROJECT_DIR$/stars/__init__.py" />
+        <option value="$PROJECT_DIR$/stars/main.py" />
+        <option value="$PROJECT_DIR$/stars/main_withoutBGM.py" />
       </list>
     </option>
   </component>
@@ -91,8 +91,7 @@
             <path>
               <item name="Pycharm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pycharm" type="462c0819:PsiDirectoryNode" />
-              <item name="Chess" type="462c0819:PsiDirectoryNode" />
-              <item name="sources" type="462c0819:PsiDirectoryNode" />
+              <item name="stars" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -102,7 +101,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stars/image" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pycharm\stars" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Pycharm\stars\image" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Chess">
+  <component name="RunManager" selected="Python.main">
     <configuration name="Chess" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +159,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chess/keys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stars" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stars/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,6 +232,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.Chess" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
@@ -227,12 +257,12 @@
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17755991" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12527233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32952183" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32952183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -252,13 +282,33 @@
     <entry file="file://$PROJECT_DIR$/Chess/bpawn.png" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/Chess/test.py" />
+    <entry file="file://$PROJECT_DIR$/stars/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stars/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="83" column="47" lean-forward="true" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
+          <folding>
+            <element signature="e#10#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chess/Chess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="213" column="58" lean-forward="true" selection-start-line="213" selection-start-column="58" selection-end-line="213" selection-end-column="58" />
+        <state relative-caret-position="950">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stars/main_withoutBGM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="91" column="30" lean-forward="true" selection-start-line="91" selection-start-column="30" selection-end-line="91" selection-end-column="30" />
         </state>
       </provider>
     </entry>
