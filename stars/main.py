@@ -5,7 +5,6 @@ import pygame
 from pygame.locals import *
 import sys
 import random
-
 pg = pygame
 pg.init()
 # ===================================
