@@ -5,6 +5,7 @@ import pygame
 from pygame.locals import *
 import sys
 import random
+import time
 pg = pygame
 pg.init()
 # ===================================
@@ -19,6 +20,7 @@ Playing = False
 Size = 5
 BoardStart = 0
 degree = 0
+x, y = Size // 2, Size // 2
 scr = pg.display.set_mode([600, 800])
 # ===================================
 # Font, image, strings.
@@ -52,10 +54,8 @@ while not Shutdown:
         elif event.type == KEYDOWN:
             if event.key == K_UP:
                 if not preGame:
-                    y -= 1
+                    y -=1
                     degree = 90
-                    if 0 > y or y > (Size - 1):
-                        y += 1
                 elif Size == 15:
                     break
                 else:
@@ -64,8 +64,6 @@ while not Shutdown:
                 if not preGame:
                     y += 1
                     degree = 270
-                    if 0 > y or y > (Size - 1):
-                        y -= 1
                 elif Size == 5:
                     break
                 else:
@@ -74,14 +72,10 @@ while not Shutdown:
                 if not preGame:
                     x -= 1
                     degree = 180
-                    if 0 > x or x > (Size - 1):
-                        x += 1
             elif event.key == K_RIGHT:
                 if not preGame:
                     x += 1
                     degree = 0
-                    if 0 > x or x > (Size - 1):
-                        x -= 1
             elif event.key == K_RETURN:
                 preGame = False
                 pg.mixer.music.stop()
@@ -90,9 +84,17 @@ while not Shutdown:
                     Shutdown = True
                     pg.quit()
                     sys.exit()
-                if not preGame:
+                else:
                     preGame = True
                     pg.mixer.music.stop()
+    if y < 0:
+        y += 1
+    elif y > (Size - 1):
+        y -= 1
+    elif x < 0:
+        x += 1
+    elif x > (Size - 1):
+        x -= 1
     # ===================================
     # PreGame, reset scores, variables, and print text.
     if preGame:
