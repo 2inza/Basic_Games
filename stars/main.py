@@ -5,7 +5,6 @@ import pygame
 from pygame.locals import *
 import sys
 import random
-import time
 pg = pygame
 pg.init()
 # ===================================
@@ -54,7 +53,7 @@ while not Shutdown:
         elif event.type == KEYDOWN:
             if event.key == K_UP:
                 if not preGame:
-                    y -=1
+                    y -= 1
                     degree = 90
                 elif Size == 15:
                     break
