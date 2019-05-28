@@ -1,5 +1,11 @@
 # Snake Tutorial Python
 
+
+# 이 코드는 유튜브에서 다른사람이 스네이크를 짠것을 가져온것.
+# This code is not mine
+# 출처 : https://www.youtube.com/watch?v=CD4qAhfFuLo&t=2019s
+
+
 import random
 import pygame
 import tkinter as tk
